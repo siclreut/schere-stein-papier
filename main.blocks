@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="90E(S.G}sC{U5bk_O/K6">zufall</variable></variables><block type="pxt-on-start" id="WM*HhJIQ]I=2E2mxEAnD" x="0" y="0"></block><block type="device_button_selected_event" id="1a0W1^/)W=*Ag5T@SYxM" x="207" y="22"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id=".3c|P-BkZ1/M{m(!Xc^J"></shadow></value><statement name="HANDLER"><block type="device_clear_display" id="Ra,c#cgH6y0=0c[Pf$lQ"></block></statement></block><block type="device_forever" id="~z=n!;M6:-`!F|1B*Apw" x="526" y="22"></block><block type="device_gesture_event" id="B;4F6;t*:7afO*YLgF+m" x="2" y="203"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="V!xgldR!3yNi,`_Bx4O)"><field name="VAR" id="90E(S.G}sC{U5bk_O/K6">zufall</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id=";3B*^240Ud~Bwa[gL]0}"><value name="min"><shadow type="math_number" id="K.?;yLR~oTfNgnuTtzv("><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="Pn0K1?5lWUV6bbIJLAPd"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id=":J|j`sXWWSXh4A*{LrDf"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="gmXP0f~sRxd_PB;o#M9G"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="T(QU,91F_JZx-4~+Ax1H"><field name="VAR" id="90E(S.G}sC{U5bk_O/K6">zufall</field></block></value><value name="B"><shadow type="math_number" id="hT%H)cs6%2X32`o+D|vH"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="l-nD(oy9bubH+-[ks|Z_"><field name="LEDS">`
+        . . . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        . . . . #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="FC?1]5LPwql(Wv=sr!FH"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="r{vv[[7eC#Hd%%5;uh*0"><field name="VAR" id="90E(S.G}sC{U5bk_O/K6">zufall</field></block></value><value name="B"><shadow type="math_number" id="e;eS)LiG6CpgW2sAkIR7"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="%h.mCT2L{jnNoiJQ:6-s"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="4=GugfRjgr7N(TPU9{+m"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block></xml>
